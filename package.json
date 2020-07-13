@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/leeyuljung/react-next-practice#readme",
   "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.10.4",
     "@zeit/next-css": "^1.0.1",
     "antd": "^4.4.1",
     "babel-plugin-import": "^1.13.0",
