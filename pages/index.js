@@ -1,14 +1,13 @@
-import React from 'react';
 import Layout from '../components/Layout';
-import Link from 'next/link';
+// import Link from 'next/link';
+import utilStyles from '../styles/utils.module.css';
 // import { Button } from 'antd';
 
 const Home = () => (
-	<Layout>
-		Read 
-		<Link href="/posts/first-post">
-			<a> this page</a>
-		</Link>
+	<Layout home title="HomePage">
+		<section className={utilStyles.headingMd}>
+			<p>This is nextjs practice.</p>
+		</section>
 	</Layout>
 )
 
