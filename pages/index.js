@@ -1,5 +1,4 @@
 import Layout from '../components/Layout';
-// import Link from 'next/link';
 import utilStyles from '../styles/utils.module.css';
 // import { Button } from 'antd';
 import { getSortedPostsData } from '../lib/posts';
