@@ -23,6 +23,7 @@
     "@zeit/next-css": "^1.0.1",
     "antd": "^4.4.1",
     "babel-plugin-import": "^1.13.0",
+    "gray-matter": "^4.0.2",
     "next": "^9.4.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
